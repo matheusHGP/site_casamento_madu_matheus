@@ -26,7 +26,19 @@ const padrinhos = {
     ],
     audio: "/audios/joao.mp3",
     color: COLORS.ORANGE,
-    text: TEXTS.MULHER
+    text: `Uma pessoa preocupada, carinhosa e com o coração enorme, que
+    sempre cuidou e me ensinou muito. Sou muito grato pela nossa infância
+    e por tudo que você fez.
+    O grande dia está chegando…
+    E não poderíamos imaginar esse momento tão especial sem você ao
+    nosso lado.
+    Agora, estamos prestes a viver o sacramento do matrimônio, um passo
+    sagrado e cheio de amor, e não poderíamos imaginar esse momento
+    sem você ao nosso lado.
+    Ser madrinha é mais que um convite, é uma missão: caminhar conosco, rezar
+    por nós, nos apoiar nos momentos difíceis e celebrar conosco as alegrias que
+    Deus nos conceder. Queremos que seja testemunha do nosso “sim” e parte
+    dessa família que estamos construindo.`
   },
 
   '2ae2aefc-2de9-4edb-93ae-cc5a7a1884f7-taisa-eduardo': {
