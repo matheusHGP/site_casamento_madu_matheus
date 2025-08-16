@@ -133,7 +133,7 @@ const padrinhos = {
     Mãe, aceita me levar até o altar?`
   },
 
-  '9bfe9715-d694-4043-a2a3-9a4e427f11dd-lazara': {
+  '0107fa84-82f9-4d6c-aa1f-d0f0348f5a07-fernanda-marcelo': {
     nome: "TIA FER E TIO MARCELO",
     fotos: [
       "/fotos/joao/1.jpg",
