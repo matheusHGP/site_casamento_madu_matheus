@@ -48,7 +48,7 @@ export default function AudioMessage({
       {data.nome}
     </h1>
 
-    <div style={{
+    {/* <div style={{
       width: "100%",
       maxWidth: "500px",
       borderRadius: "16px",
@@ -83,14 +83,14 @@ export default function AudioMessage({
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+    </div> */}
 
     <div className="mt-[1rem] w-[100%] max-w-[500px] h-[20%] max-h-[20%]">
       <ModernAudioPlayer src={data.audio} />
     </div>
 
     <div className="mt-[1rem] w-[100%] max-w-[500px] h-[20%] max-h-[20%]">
-      <ModernAudioPlayer src={data.audio} />
+      <ModernAudioPlayer src={data.audio2} />
     </div>
   </div>
 }

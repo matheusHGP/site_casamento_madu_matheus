@@ -52,7 +52,7 @@ export default function ModernAudioPlayer({ src, filename }) {
   const downloadAudio = () => {
     const link = document.createElement("a");
     link.href = src;
-    link.download = filename || "audio.mp3";
+    link.download = filename || "audio.m4a";
     link.click();
   };
 
