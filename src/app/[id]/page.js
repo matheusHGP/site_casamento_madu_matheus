@@ -18,13 +18,14 @@ const TEXTS = {
 // Dados fixos
 const padrinhos = {
   '1ff4f497-a725-4b8e-ac86-a5e2c4892c63-amanda-gotardo': {
-    nome: "Amanda",
+    nome: "AMANDA",
     fotos: [
       "/1ff4f497-a725-4b8e-ac86-a5e2c4892c63-amanda-gotardo/1.jpg",
       "/1ff4f497-a725-4b8e-ac86-a5e2c4892c63-amanda-gotardo/2.jpg",
       "/1ff4f497-a725-4b8e-ac86-a5e2c4892c63-amanda-gotardo/3.jpg",
     ],
     audio: "/1ff4f497-a725-4b8e-ac86-a5e2c4892c63-amanda-gotardo/amanda_fala_matheus.m4a",
+    audio2: "/1ff4f497-a725-4b8e-ac86-a5e2c4892c63-amanda-gotardo/amanda_fala_madu.m4a",
     color: COLORS.ORANGE,
     text: `Uma pessoa preocupada, carinhosa e com o coração enorme, que
     sempre cuidou e me ensinou muito. Sou muito grato pela nossa infância
@@ -42,7 +43,7 @@ const padrinhos = {
   },
 
   '2ae2aefc-2de9-4edb-93ae-cc5a7a1884f7-taisa-eduardo': {
-    nome: "Taisa e Eduardo",
+    nome: "TAISA E EDUARDO",
     fotos: [
       "/2ae2aefc-2de9-4edb-93ae-cc5a7a1884f7-taisa-eduardo/1.jpg",
       "/2ae2aefc-2de9-4edb-93ae-cc5a7a1884f7-taisa-eduardo/2.jpg",
@@ -67,7 +68,7 @@ const padrinhos = {
   },
 
   '8e2c8839-12ee-4d11-8005-e9290c0b1e0a-joaquim': {
-    nome: "Vô Joaquim",
+    nome: "JOAQUIM",
     fotos: [
       "/8e2c8839-12ee-4d11-8005-e9290c0b1e0a-joaquim/1.jpg",
       "/8e2c8839-12ee-4d11-8005-e9290c0b1e0a-joaquim/2.jpg",
@@ -91,7 +92,7 @@ const padrinhos = {
   },
 
   '9b1c4e2e-ebf6-4076-a993-b8033168f64d-aline': {
-    nome: "Aline",
+    nome: "ALINE",
     fotos: [
       "/9b1c4e2e-ebf6-4076-a993-b8033168f64d-aline/1.jpg",
       "/9b1c4e2e-ebf6-4076-a993-b8033168f64d-aline/2.jpg",
@@ -104,7 +105,7 @@ const padrinhos = {
   },
 
   '9bfe9715-d694-4043-a2a3-9a4e427f11dd-lazara': {
-    nome: "Dona Lázara",
+    nome: "LÁZARA",
     fotos: [
       "/9bfe9715-d694-4043-a2a3-9a4e427f11dd-lazara/1.jpg",
       "/9bfe9715-d694-4043-a2a3-9a4e427f11dd-lazara/2.jpg",
@@ -151,13 +152,14 @@ const padrinhos = {
   },
 
   '0107fa84-82f9-4d6c-aa1f-d0f0348f5a07-fernanda-marcelo': {
-    nome: "TIA FER E TIO MARCELO",
+    nome: "FERNANDA E MARCELO",
     fotos: [
-      "/joao/1.jpg",
-      "/joao/2.jpg",
-      "/joao/3.jpg",
+      "/0107fa84-82f9-4d6c-aa1f-d0f0348f5a07-fernanda-marcelo/1.jpg",
+      "/0107fa84-82f9-4d6c-aa1f-d0f0348f5a07-fernanda-marcelo/2.jpg",
+      "/0107fa84-82f9-4d6c-aa1f-d0f0348f5a07-fernanda-marcelo/3.jpg",
     ],
-    audio: "/audios/joao.m4a",
+    audio: "/0107fa84-82f9-4d6c-aa1f-d0f0348f5a07-fernanda-marcelo/fernanda_marcelo_fala_madu.m4a",
+    audio2: "/0107fa84-82f9-4d6c-aa1f-d0f0348f5a07-fernanda-marcelo/fernanda_marcelo_fala_matheus.m4a",
     color: COLORS.ORANGE,
     text: TEXTS.CASAL
   },
@@ -169,19 +171,21 @@ const padrinhos = {
       "/joao/2.jpg",
       "/joao/3.jpg",
     ],
-    audio: "/audios/joao.m4a",
+    audio: "/07168f00-b68f-4a5c-a9f6-d42a396b24ed-hugo-faggioni/hugo_fala_madu.m4a",
+    audio2: "/07168f00-b68f-4a5c-a9f6-d42a396b24ed-hugo-faggioni/hugo_fala_matheus.m4a",
     color: COLORS.PINK,
     text: TEXTS.HOMEM
   },
 
   'a7485d1c-368d-477f-8ad7-964df50642ad-lilian-jose-luis': {
-    nome: "PAI E LILIAN",
+    nome: "LILIAN E JOSE LUIS",
     fotos: [
       "/joao/1.jpg",
       "/joao/2.jpg",
       "/joao/3.jpg",
     ],
-    audio: "/audios/joao.m4a",
+    audio: "/a7485d1c-368d-477f-8ad7-964df50642ad-lilian-jose-luis/lilian_jose_luis_fala_matheus.m4a",
+    audio2: "/a7485d1c-368d-477f-8ad7-964df50642ad-lilian-jose-luis/lilian_jose_luis_fala_madu.m4a",
     color: COLORS.PINK,
     text: `O grande dia está se aproximando…
     E em meio a tantas emoções, uma coisa é certa: queremos muito
@@ -199,13 +203,14 @@ const padrinhos = {
   },
 
   'c779e1f3-4dbc-40d4-8a75-322345226ed8-luis-sonia': {
-    nome: "VOVÔ LUIZ E VOVÓ SÔNIA",
+    nome: "SÔNIA E LUIZ",
     fotos: [
       "/joao/1.jpg",
       "/joao/2.jpg",
       "/joao/3.jpg",
     ],
-    audio: "/audios/joao.m4a",
+    audio: "/c779e1f3-4dbc-40d4-8a75-322345226ed8-luis-sonia/sonia_luiz_fala_madu.m4a",
+    audio2: "/c779e1f3-4dbc-40d4-8a75-322345226ed8-luis-sonia/sonia_luiz_fala_matheus.m4a",
     color: COLORS.ORANGE,
     text: `Se hoje estou vivendo o sonho de me casar, é porque, desde sempre, tive
     o amor e o cuidado de vocês. Vocês foram mais que avós: foram porto
@@ -219,23 +224,26 @@ const padrinhos = {
   },
 
   'd7c3c288-8a54-4337-b0f0-d5c532781048-genilda': {
-    nome: "VÓ GE",
+    nome: "NIDA",
     fotos: [
       "/joao/1.jpg",
       "/joao/2.jpg",
       "/joao/3.jpg",
     ],
-    audio: "/audios/joao.m4a",
+    audio: "/d7c3c288-8a54-4337-b0f0-d5c532781048-genilda/nida_fala_matheus.m4a",
+    audio2: "/d7c3c288-8a54-4337-b0f0-d5c532781048-genilda/nida_fala_madu.m4a",
     color: COLORS.PINK,
-    text: `Se hoje estou vivendo o sonho de me casar, é porque, desde sempre, tive
-    o amor e o cuidado de vocês. Vocês foram mais que avós: foram porto
-    seguro, exemplo de generosidade e força, sempre ao lado da minha mãe,
-    garantindo que nada nos faltasse — nem o essencial, nem o amor.
-    Nesse dia tão importante, quero que estejam comigo, não só como
-    convidados, mas como parte fundamental da minha história. Cada passo
-    que dou até o altar carrega um pedaço do que aprendi com vocês: que
-    família é estar presente, apoiar e amar sem medida.
-    Será uma honra ter vocês celebrando comigo esse novo capítulo.`
+    text: `Em breve, vou viver um dos dias mais importantes da minha vida, e
+    será uma honra ter a senhora ao meu lado para celebrar.
+    Cada momento que já compartilhamos, por mais simples que
+    tenha sido, faz parte da minha história. Cada encontro, conversa,
+    sorriso e cada risada ajudou a construir lembranças que levo
+    comigo.
+    No meu casamento, quero estar cercado de pessoas que, de
+    alguma forma, contribuíram para o que sou hoje — e a senhora é
+    uma delas.
+    Será uma grande alegria poder contar com a sua presença nessa
+    data.`
   },
 
   'dd051d40-4ceb-4b22-bb02-a9564616a64d-aninha': {
@@ -245,7 +253,8 @@ const padrinhos = {
       "/joao/2.jpg",
       "/joao/3.jpg",
     ],
-    audio: "/audios/joao.m4a",
+    audio: "/dd051d40-4ceb-4b22-bb02-a9564616a64d-aninha/aninha_fala_madu.m4a",
+    audio2: "/dd051d40-4ceb-4b22-bb02-a9564616a64d-aninha/aninha_fala_matheus.m4a",
     color: COLORS.ORANGE,
     text: TEXTS.MULHER
   },
@@ -257,7 +266,8 @@ const padrinhos = {
       "/joao/2.jpg",
       "/joao/3.jpg",
     ],
-    audio: "/audios/joao.m4a",
+    audio: "/f9034a85-6ee4-41fe-9afa-2af6e0da782e-pedro-henrique/pedro_fala_matheus.m4a",
+    audio2: "/f9034a85-6ee4-41fe-9afa-2af6e0da782e-pedro-henrique/pedro_fala_madu.m4a",
     color: COLORS.ORANGE,
     text: `Meu irmão mais novo, que sempre defendi, protegi, ensinei e
     também aprendi! Você chegou para me fazer companhia e alegrar

@@ -22,7 +22,7 @@ export default function AudioMessage({
 
   return <div
     style={{
-      fontFamily: "'Playfair Display', serif",
+      // fontFamily: "'Playfair Display', serif",
       background: "linear-gradient(135deg, #fdf6f0, #fcefe8)",
       maxHeight: "100vh",
       height: '100%',
