@@ -46,6 +46,7 @@ export default function Welcome({ data, onButtonClick }) {
           boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
           maxWidth: "600px",
           width: "100%",
+          overflowY: 'auto'
         }}
       >
         <p
